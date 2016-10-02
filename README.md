@@ -3,6 +3,7 @@ Diplomska rabota by Petar Risteski
 Software as a Service application. Tenants can register and manage their projects (and team members) with free or premium account (Stripe API integration).
 - Free account - can send invitation via email to other users (team members) and have one free project.
 - Premium account - can send invitation via email to other users (team members) and have unlimited premium projects.
+
 Full account authentication with email/password recovery - Devise
 Upload functionality - project artifacts
 Possibility to change account plan - free to premium / premium to free
