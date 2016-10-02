@@ -1,24 +1,13 @@
+Diplomska rabota by Petar Risteski
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://diplomska-bobpetar.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Software as a Service application. Tenants can register and manage their projects (and team members) with free or premium account (Stripe API integration).
+- Free account - can send invitation via email to other users (team members) and have one free project.
+- Premium account - can send invitation via email to other users (team members) and have unlimited premium projects.
+Full account authentication with email/password recovery - Devise
+Upload functionality - project artifacts
+Possibility to change account plan - free to premium / premium to free
+Responsive design - Bootstrap 3 with custom CSS override
+Rails version - 4.2.5
+Ruby version - 2.3
+Cloud based IDE - c9.io
+GitHub public repo - https://github.com/bobpetar/Dipl-project-management
