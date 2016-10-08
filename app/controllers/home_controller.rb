@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   skip_before_action :authenticate_tenant!, :only => [ :index ]
 
   def index
-    
+    @projects = Project.by_plan_and_tenant(@tenant.id)
     if current_user
       if session[:tenant_id]
         Tenant.set_current_tenant session[:tenant_id]
